@@ -3,6 +3,7 @@ server:
 some:
  value: valor del servidor en producción 2
 management:
- web:
-  exposure:
-   include: '*'
+ endpoints:
+  web:
+   exposure:
+    include: '*'
