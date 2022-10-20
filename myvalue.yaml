@@ -3,6 +3,7 @@ server:
 some:
  value: valor del servidor
 management:
- web:
-  exposure:
-   include: '*'
+ endpoints:
+  web:
+   exposure:
+    include: '*'
